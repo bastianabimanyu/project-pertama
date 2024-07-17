@@ -1,0 +1,920 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('gambar/Benefits-of-Orange-Juice.jpeg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+   
+}
+
+nav{
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: 0.9;
+}
+
+nav>img{
+    display: flex;
+    justify-content: start;    
+}
+
+nav>ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 50px;
+    margin-left: auto;
+}
+
+nav>ul> li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+li>.bg:hover{
+    background-color: orangered;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+
+header>h1{
+    display: flex;
+    justify-content: start;
+    padding-top: 150px;
+    margin-left: 60px;
+    color: white;
+}
+
+header>p{
+    display: flex;
+    justify-content: start;   
+    margin-left: 40px;
+    color: white;
+    margin-right: 34.8rem;
+    text-align: center;
+}
+a>button{
+    float: left;
+    margin-left: 250px;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: orange;
+}
+
+/* kedua */
+#buah{
+    background-color: moccasin;
+    height: 200vh;
+    overflow: hidden;
+    gap: 30px;
+}
+
+#buah>.judul{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.satu{
+  box-shadow: 5px 5px 10px yellow;
+  background-color: coral;
+}
+
+.satu:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.satu>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.buy{
+    display: flex;
+    gap: 4rem;
+}
+
+.buy>p{
+    color: white;
+}
+
+.kedua{
+  box-shadow: 5px 5px 10px purple;
+  background-color: coral;
+}
+
+.kedua:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.kedua>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.ketiga{
+    box-shadow: 5px 5px 10px green;
+    background-color: coral;
+}
+
+.ketiga:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.ketiga>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.keempat{
+    box-shadow: 5px 5px 10px orange;
+    background-color: coral;
+}
+
+
+.keempat>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.keempat:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.kelima{
+    box-shadow: 5px 5px 10px red;
+    background-color: coral;
+}
+
+.kelima:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.kelima>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.keenam{
+    box-shadow: 5px 5px 10px yellowgreen;
+    background-color: coral;
+}
+
+.keenam:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.keenam>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.ketujuh{
+    box-shadow: 5px 5px 10px orangered;
+    background-color: coral;
+}
+
+.ketujuh:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.ketujuh>img{
+    width: 100%;
+    height: 13rem;
+}
+
+.kedelapan{
+    box-shadow: 5px 5px 10px brown;
+    background-color: coral;
+}
+
+.kedelapan:hover{
+    transition-duration: 1s;
+    transform: scale(0.9);
+}
+
+.kedelapan>img{
+    width: 100%;
+    height: 13rem;
+}
+
+
+/* ketiga */
+
+#testimoni{
+    background-color: lemonchiffon;
+    height: 110vh;
+    overflow: hidden;
+}
+
+#testimoni>h1{
+    text-align: center;
+}
+
+.testi{
+    margin-top: 4rem;
+    margin-left: 3px;
+}
+
+.star {
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .star.clicked {
+    color: gold;
+  }
+
+.testi2{
+    margin-top: 3rem;
+    margin-left: 13rem;
+}
+
+
+/* keempat */
+
+footer{
+    background-color: moccasin;
+    height: 50vh;
+}
+
+footer>ul{
+    padding-top: 3rem;
+}
+
+footer>ul>li{
+    list-style-type: none;
+}
+
+.foot{
+    display: flex;   
+    padding-top: 3rem;
+}
+
+.foot>.kt>ul{
+    list-style: none;
+}
+
+.foot>h5{
+    margin-left: 16rem;
+}
+
+.foot>.sosmed{
+    margin-top: 3rem;
+    margin-left: -9rem;
+    list-style: none;
+}
+
+.foot>.sosmed2{
+    margin-top: 3rem;
+    margin-left: -12rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.foot>.sosmed2>li{
+    margin-top: 5px;
+}
+
+.foot>.sosmed>li>img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+/* responsive di dalam tablet */
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        background-image: url('gambar/Benefits-of-Orange-Juice.jpeg');
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+       
+    }
+
+    nav{
+        height: 70px;
+        background-color: orange;
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        opacity: 0.9;
+    }
+    
+    nav>img{
+        display: flex;
+        justify-content: start;    
+    }
+    
+    nav>ul {
+        list-style: none;
+        padding-top: 20px;
+        padding-right: 10px;
+        margin-left: auto;
+    }
+    
+    nav>ul> li{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    li>a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    li>.bg:hover{
+        background-color: orangered;
+        color: black;
+        width: 100%;
+        height: 50px;
+        border-radius: 4px;
+        padding: 5px;
+        
+    }
+
+    header>h1{
+        display: flex;
+        justify-content: start;
+        padding-top: 190px;
+        margin-left: 60px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    header>p{
+        display: flex;
+        justify-content: start;   
+        margin-left: 18px;
+        color: white;
+        font-size: 14px;
+        margin-right: 19.8rem;
+        
+    }
+    a>button{
+        float: left;
+        margin-left: 170px;
+        border-style: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 9px;
+        background-color: orange;
+    }
+
+    /* kedua */
+
+    #buah{
+        background-color: moccasin;
+        height: 350vh;
+        overflow: hidden;
+        gap: 30px;
+    }
+    
+    #buah>.judul{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .satu{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-left: 1rem;
+    }
+
+    .kedua{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-left: 1rem;
+    }
+
+    .ketiga{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .keempat{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .kelima{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .keenam{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .ketujuh{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .kedelapan{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+
+
+    /* ketiga */
+
+    
+#testimoni{
+    background-color: lemonchiffon;
+    height: 150vh;
+    overflow: hidden;
+}
+
+#testimoni>h1{
+    text-align: center;
+}
+
+.testi{
+    margin-top: 4rem;
+    margin-left: 3px;
+}
+
+.star {
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .star.clicked {
+    color: gold;
+  }
+
+.testi2{
+    margin-top: 3rem;
+    margin-left:3px;
+}
+
+.tanggapan1{
+    margin-left: 3rem;
+}
+
+.tanggapan2{
+
+}
+
+.tanggapan3{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.tanggapan4{
+    margin-top: 2rem;
+}
+
+.tanggapan5{
+ margin-left: 3rem;
+}
+
+.tanggapan6{
+
+}
+
+
+/* keempat */
+
+footer{
+    background-color: moccasin;
+    height: 50vh;
+    overflow: hidden;
+}
+
+footer>ul{
+    padding-top: 3rem;
+}
+
+footer>ul>li{
+    list-style-type: none;
+}
+
+.foot{
+    display: flex;   
+    padding-top: 3rem;
+}
+
+.foot>.kt>ul{
+    list-style: none;
+}
+
+.foot>h5{
+    margin-left: 4rem;
+}
+
+.foot>.sosmed{
+    margin-top: 3rem;
+    margin-left: -9rem;
+    list-style: none;
+}
+
+.foot>.sosmed2{
+    margin-top: 3rem;
+    margin-left: -12rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.foot>.sosmed2>li{
+    margin-top: 5px;
+}
+
+.foot>.sosmed>li>img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive di dalam hp */
+
+@media screen and (max-width:390px) {
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        background-image: url('gambar/Benefits-of-Orange-Juice.jpeg');
+        background-size: cover;
+        height: 60vh;
+        background-position: center;
+       
+    }
+
+    nav{
+        height: 70px;
+        background-color: orange;
+        display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        opacity: 0.9;
+    }
+    
+    nav>img{
+        display: flex;
+        justify-content: start;    
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px; /* Sesuaikan dengan kebutuhan */
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+      }
+    
+      nav ul.active {
+        display: flex;
+      }
+    
+      nav li {
+        margin: 10px 0;
+      }
+    
+      .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px; /* Sesuaikan dengan kebutuhan */
+        right: 20px;
+        cursor: pointer;
+        z-index: 1000;
+        margin-top: 8px;
+      }
+    
+      .hamburger {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 23px;
+      }
+    
+      .hamburger.active {
+        transform: rotate(45deg);
+      }
+    
+      .hamburger::before,
+      .hamburger::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        transition: transform 0.3s ease-in-out;
+      }
+    
+      .hamburger::before {
+        transform-origin: center;
+        top: -8px;
+      }
+    
+      .hamburger::after {
+        transform-origin: center;
+        top: 8px;
+      }
+    
+      .hamburger.active::before {
+        transform: translateY(8px) rotate(-90deg);
+      }
+    
+      .hamburger.active::after {
+        transform: translateY(-8px) rotate(90deg);
+      }
+
+    header>h1{
+        display: flex;
+        justify-content: start;
+        padding-top: 130px;
+        margin-left: 9px;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    header>p{
+        display: flex;
+        justify-content: start;   
+        margin-left: 11px;
+        color: white;
+        font-size: 11px;
+        margin-right: 10rem;
+        
+    }
+    a>button{
+        float: left;
+        margin-left: 20px;
+        border-style: none;
+        width: 80px;
+        height: 30px;
+        border-radius: 9px;
+        background-color: orange;
+        font-size: 10px;
+    }
+
+    /* kedua */
+
+    #buah{
+        background-color: moccasin;
+        height: 510vh;
+        overflow: hidden;
+        gap: 30px;
+    }
+    
+    #buah>.judul{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .satu{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-left: 1rem;
+    }
+
+    .kedua{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-left: 1rem;
+        margin-top: 2.5rem;
+    }
+
+    .ketiga{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .keempat{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .kelima{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .keenam{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .ketujuh{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .kedelapan{
+        box-shadow: 5px 5px 10px yellow;
+        background-color: coral;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+
+
+    /* ketiga */
+
+    
+#testimoni{
+    background-color: lemonchiffon;
+    height: 230vh;
+    overflow: hidden;
+}
+
+#testimoni>h1{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.testi{
+    margin-top: 4rem;
+    margin-left: 3px;
+}
+
+.star {
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .star.clicked {
+    color: gold;
+  }
+
+.testi2{
+    margin-top: 3rem;
+    margin-left:3px;
+}
+
+.tanggapan1{
+    margin-left: 4rem;
+}
+
+.tanggapan2{
+  margin-top: 2.5rem;
+  margin-right: 4rem;
+}
+
+.tanggapan3{
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+}
+
+.tanggapan4{
+    margin-top: 2.5rem;
+    margin-right: 4rem;
+}
+
+.tanggapan5{
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+}
+
+.tanggapan6{
+    margin-top: 2.5rem;
+    margin-right: 4rem;
+}
+
+
+/* keempat */
+
+footer{
+    background-color: moccasin;
+    height: 60vh;
+    overflow: hidden;
+}
+
+footer>ul{
+    padding-top: 3rem;
+}
+
+footer>ul>li{
+    list-style-type: none;
+}
+
+.foot{
+    display: flex;   
+    padding-top: 3rem;
+}
+
+.foot>.kt>ul{
+    list-style: none;
+}
+
+.foot>h5{
+    margin-left: 4rem;
+    display: none;
+}
+
+.foot>.sosmed{
+    margin-top: 12rem;
+    margin-left: -20rem;
+    list-style: none;
+}
+
+.foot>.sosmed2{
+    margin-top: 12rem;
+    margin-left: 5rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.foot>.sosmed2>li{
+    margin-top: 5px;
+}
+
+.foot>.sosmed>li>img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+}
